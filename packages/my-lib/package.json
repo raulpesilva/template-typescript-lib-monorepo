@@ -33,7 +33,7 @@
   "scripts": {
     "build": "tsup",
     "start": "tsup",
-    "dev": "tsx ./src/index.ts",
+    "dev": "tsx --watch ./src/index.ts",
     "clean": "rimraf ./dist && rimraf ./coverage",
     "lint": "tsc .",
     "test": "vitest run",
