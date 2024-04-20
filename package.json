@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
+    "dev": "turbo run dev --parallel --no-cache",
     "dev:my-lib": "turbo run dev --filter=my-lib --log-prefix=none",
     "test": "turbo run test",
     "test:watch": "turbo run test:watch",
